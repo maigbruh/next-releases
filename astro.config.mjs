@@ -28,7 +28,7 @@ import { config as markdocConfig } from './src/utils/mdoc/mdoc.config'
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   
   site: 'https://maigbruh.github.io',
-  base: '/nv-releases.github.io',
+ // base: '/nv-releases.github.io',
 })
   // root: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // outDir: './dist',       // When running `astro build`, path to final static output
