@@ -26,6 +26,10 @@ import { config as markdocConfig } from './src/utils/mdoc/mdoc.config'
 
 // https://astro.build/config
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
+  
+  site: 'https://maigbruh.github.io',
+  base: '/nv-releases.github.io',
+})
   // root: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // outDir: './dist',       // When running `astro build`, path to final static output
   // publicDir: './public',   // A folder of static files Astro will copy to the root. Useful for favicons, images, and other files that don’t need processing.
